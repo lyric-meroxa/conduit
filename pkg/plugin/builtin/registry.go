@@ -21,11 +21,13 @@ import (
 	builtinv1 "github.com/conduitio/conduit/pkg/plugin/builtin/v1"
 	"github.com/conduitio/conduit/pkg/plugin/sdk"
 	"github.com/conduitio/conduit/pkg/plugins/generator"
+	"github.com/conduitio/conduit/pkg/plugins/kafka"
 )
 
 var (
 	DefaultDispenserFactories = []DispenserFactory{
 		sdkDispenserFactory(generator.Specification, generator.NewSource, nil),
+		sdkDispenserFactory(kafka.Specification, kafka.NewSource, kafka.NewDestination),
 	}
 )
 
