@@ -12,7 +12,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.24.1
 	github.com/batchcorp/pgoutput v0.3.2
 	github.com/bufbuild/buf v1.0.0-rc12
-	github.com/conduitio/conduit-plugin v0.0.0-20220107165526-1facff1f53e7
+	github.com/conduitio/conduit-plugin v0.0.0-20220204185132-cba955ffea66
 	github.com/dgraph-io/badger/v3 v3.2103.2
 	github.com/dop251/goja v0.0.0-20210225094849-f3cfc97811c0
 	github.com/golang/mock v1.6.0
