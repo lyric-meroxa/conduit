@@ -37,6 +37,14 @@ Conduit was created and open-sourced by [Meroxa](https://meroxa.io).
 
 ## Installation guide
 
+Test drive on Heroku via the button below.
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+
+[![Deploy branch](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/lyric-meroxa/conduit/tree/Heroku-button)
+
+
+
 ### Download release
 
 Download a pre-built binary from the [latest release](https://github.com/conduitio/conduit/releases/latest) and simply
