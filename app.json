@@ -1,0 +1,41 @@
+{
+   "name":"Conduit.io",
+   "description":"OSS data integration tool",
+   "keywords":[
+      "data",
+      "real-time",
+      "kafka",
+      "postgres",
+      "golang",
+      "data pipeline"
+   ],
+   "scripts":{
+      "postdeploy":"./seed-db"
+   },
+   "repository":"https://github.com/ConduitIO/conduit",
+   "website":"https://www.conduit.io/",
+   "success_url":"hhttps://github.com/ConduitIO/conduit",
+   "logo":"https://www.conduit.io/images/conduit/conduit-logo.svg",
+   "env":{
+      "AUTH_USER":{
+         "description":"User to login to UI with.",
+         "value":"admin",
+         "required":true
+      },
+      "AUTH_PASS":{
+         "description":"Password to login to UI with.",
+         "value":"password",
+         "required":true
+      }
+   },
+   "buildpacks":[
+      {
+         "url":"heroku/go"
+      }
+   ],
+   "addons":[
+      {
+         "plan":"heroku-postgresql"
+      }
+   ]
+}
