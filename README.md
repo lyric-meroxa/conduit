@@ -41,7 +41,7 @@ Test drive on Heroku via the button below.
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 
-[![Deploy branch](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/lyric-meroxa/conduit/tree/Heroku-button&env[GOVERSION]=1.17)
+[![Deploy branch](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/lyric-meroxa/conduit/tree/Heroku-button)
 
 
 
