@@ -1,5 +1,7 @@
 module github.com/conduitio/conduit
 
+// go buildpack on Heroku seems to ignore the setting, but will read the comment below. Sigh.
+// +heroku goVersion 1.17
 go 1.17
 
 require (
