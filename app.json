@@ -30,7 +30,8 @@
    },
    "buildpacks":[
       {
-         "url":"heroku/go"
+         "url":"heroku/go",
+         "url":"heroku/nodejs"
       }
    ],
    "addons":[
