@@ -30,9 +30,10 @@
    },
    "buildpacks":[
       {
-         "url":"heroku/go",
          "url":"heroku/nodejs",
-         "url":"https://github.com/lyric-meroxa/heroku-buildpack-custom-binaries#v1.0.0"
+         "url":"heroku buildpacks:set https://codon-buildpacks.s3.amazonaws.com/buildpacks/heroku/emberjs.tgz",
+         "url":"heroku/go"
+         
       }
    ],
    "addons":[
