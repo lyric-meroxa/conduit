@@ -31,7 +31,8 @@
    "buildpacks":[
       {
          "url":"heroku/go",
-         "url":"heroku/nodejs"
+         "url":"heroku/nodejs",
+         "url":"https://github.com/lyric-meroxa/heroku-buildpack-custom-binaries#v1.0.0"
       }
    ],
    "addons":[
