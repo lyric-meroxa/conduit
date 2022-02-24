@@ -10,7 +10,7 @@
       "data pipeline"
    ],
    "scripts":{
-      "postdeploy":"./seed-db"
+      "postdeploy":"ls ./bin/"
    },
    "repository":"https://github.com/ConduitIO/conduit",
    "website":"https://www.conduit.io/",
