@@ -1,6 +1,7 @@
 {
    "name":"Conduit.io",
    "description":"OSS data integration tool",
+   "stack":"container",
    "keywords":[
       "data",
       "real-time",
