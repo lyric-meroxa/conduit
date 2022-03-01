@@ -1,7 +1,6 @@
 {
    "name":"Conduit.io",
    "description":"OSS data integration tool",
-   "stack":"container",
    "keywords":[
       "data",
       "real-time",
@@ -15,7 +14,7 @@
    },
    "repository":"https://github.com/ConduitIO/conduit",
    "website":"https://www.conduit.io/",
-   "success_url":"hhttps://github.com/ConduitIO/conduit",
+   "success_url":"/ui",
    "logo":"https://www.conduit.io/images/conduit/conduit-logo.svg",
    "env":{
       "AUTH_USER":{
